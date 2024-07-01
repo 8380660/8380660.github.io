@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://tu.8380660.xyz/file/2ee8c249c00af520abca2.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -82,8 +82,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>经法庭调解，双方当事人达成一致协议：被告人鲁某一次性赔偿被害人张某某经济损失15000元（已履行），被害人对其伤害行为表示谅解。</p>
 <p>法院审理后认为，被告人鲁某违背被害人的意志，采取暴力手段压制被害人反抗，强行与被害人发生性行为，其行为已触犯刑律，构成强奸罪。公诉机关的指控成立，予以支持；辩护人提出的被害人应当预见的辩护意见，不予采纳。被告人鲁某被抓获归案后，如实供述犯罪事实，可以从轻处罚；被告人鲁某自愿认罪认罚，可以从宽处理；被告人鲁某家属积极赔偿被害人经济损失并且取得被害人的谅解，酌情从轻处罚。该院向云县人民检察院发出调整量刑建议函，云县人民检察院调整量刑建议调整书建议判处被告人鲁某有期徒刑三年。公诉机关的量刑建议适当，予以采纳。法院判决被告人鲁某犯强奸罪，判处有期徒刑三年。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.8380660.xyz"> 銳視網官方博客 </a>
 <p>
@@ -138,6 +140,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
